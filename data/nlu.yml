@@ -1,0 +1,296 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello sir
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - hlw
+    - yo
+    - whats up
+    - how are you?
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - hmm
+    - hm
+    - hmmm
+    - please
+    - sure
+    - That will be much helpful
+    - will be helpful
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+    - good
+    - fine
+    - Okay
+    - Thats great
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - who are you?
+    - about you?
+
+- intent: queries
+  examples: |
+    - location 
+    - where are you located?
+    - address
+    - contact no
+    - office address
+
+- intent: AddressChange
+  examples: |
+    - I want to change address
+    - Address change
+    - Location change
+    - Location shift
+    - address shift
+    - change address
+
+- intent: OfficeAdress
+  examples: |
+    - where is your ofiice ?
+    - where are you situated ?
+    - office address
+    - your location
+    - Can I go to your office ?
+    - When can I visit?
+    - Where can I visit?
+
+- intent: CombineAccount
+  examples: |
+    - I want to combine my accounts.
+    - how can I combine my accounts?
+    - combine my accounts
+    - combine accounts
+    - add accounts
+    - add accounts
+    - Combine super
+    - Combine super annuation
+    - I want to combine my super accounts.
+
+- intent: thankss
+  examples: |
+    - Thanks.
+    - Thank you so much.
+    - Thank for the help.
+
+- intent: RetireSoon2
+  examples: |
+    - I need to know know about your retirement policy
+    - about your retirement policy
+    - I'm retiring soon
+    - How do I get my super out
+    - get my super amount money
+    - withdraw super
+    - Need my super money
+
+- intent: RetireSoon
+  examples: |
+    -dfsdas
+
+- intent: JobChange
+  examples: |
+    - I am changing job
+    - Change job
+    - Shift job
+    - How can I keep my super with HESTA?
+
+- intent: InsuranceCover
+  examples: |
+    -
+
+- intent: InsuranceCover2
+  examples: |
+    - Do I have insurance cover on my account?
+    - I want to know about the insurance cover.
+    - insurance information.
+
+- intent: ActionChecker
+  examples: |
+    - Tell me about your [Investment](services)
+    - Need some [advice](services)
+    - Tell me about [retirement](services)
+    - Tell me about [superannuation](services)
+
+- intent: applyAward
+  examples: |
+    - How do I apply for WAI Awards 2023 APAC?
+    - How do I submit a WAI Awards 2023 APAC application?
+    - How do I submit an application for the WAI Awards 2023 APAC?
+    - What is the WAI Awards 2023 APAC application process?
+    - How do I apply for the WAI Awards APAC 2023?
+    - How to apply in APAC?
+    - How I apply to APAC?
+
+- intent: deadlineAPAC
+  examples: |
+    - When is the final deadline for submitting my entry?
+    - What time is the last day to submit my entry?
+    - What time is the final submission deadline for my entry?
+    - What time does the final entry deadline fall?
+    - When is the last day for me to submit my entry?
+    - When is the last day to submit my entry?
+    - last day
+    - last date
+    - last date of submission
+    - submission last date
+    - submission end
+    - submission date
+
+- intent: reapplyAPAC
+  examples: |
+    - If I was a finalist in 2021 or 2022, may I apply again?
+    - Can I reapply if I was a finalist in 2021 or 2022?
+    - Can I apply again if I was a finalist in 2021 or 2022?
+    - May I reapply if I was a finalist in 2021 or 2022?
+    - Do I have the option to reapply if I was a finalist in 2021 or 2022?
+    - Can I apply again if I made the finals in 2021 or 2022?
+    - Can I reapply if I made the finals in 2021 or 2022?
+
+- intent: application_fee
+  examples: |
+    - Is there a cost to enter?
+    - Is there a fee to participate?
+    - Does it cost money to enter?
+    - Does entry have a fee?
+    - Is there a fee to enter?
+    - Is there an entry fee?
+
+- intent: nominate
+  examples: |
+    - Is it necessary for me to be nominated in order to apply?
+    - Do I have to be nominated to apply?
+    - Is it necessary for me to be nominated to apply?
+    - Is a nomination required in order to apply?
+    - Can I apply without being nominated?
+    - To apply, do I need to be nominated?
+    - Do I need to be nominated in order to apply?
+
+- intent: includes
+  examples: |
+    - What do I need to include in my entry?
+    - What should I write about in my entry?
+    - What information must I include in my entry?
+    - What should my entry contain?
+    - What should I include in my entry?
+    - What should I post about in my entry?
+
+- intent: user_location
+  examples: |
+    - Do I have to be Asia-Pacific based?
+    - Do I have to be based in Asia-Pacific?
+    - Is it necessary for me to be based in Asia-Pacific?
+    - Do I have to be based in the Asia-Pacific region?
+    - Do I have to be based in Asia-Pacific?
+    - Is it necessary to be based in Asia-Pacific?
+    - Must I be headquartered in the Asia-Pacific region?
+
+- intent: confidentiality
+  examples: |
+    - Is my submission confidential?
+    - Is the information I submit private?
+    - Is my submission private?
+    - Is my submission private and secure?
+    - Is the information I've provided private?
+    - Is my submission secure?
+    - Is my submission safe?
+- intent: multipleApply
+  examples: |
+    - Can I enter more than one category?
+    - Can I participate in multiple categories?
+    - Can I participate in more than one category?
+    - Can I compete in more than one category?
+    - Can I participate in more than one category?
+    - Can I enter multiple categories?
+- intent: judging
+  examples: |
+    - What is the judging process?
+    - What is the procedure for judging?
+    - What happens during the judging?
+    - How are decisions made?
+    - What steps comprise the judgment procedure?
+    - What exactly is the judgment procedure?
+    - What is the judging procedure?
+    - How does the judgment work?
+    - What exactly is the judgment procedure?
+
+  

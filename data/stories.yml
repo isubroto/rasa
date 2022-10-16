@@ -1,0 +1,129 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: queriesz
+  steps:
+  - intent: queries
+  - action: utter_queries
+
+- story: adresschanges
+  steps:
+  - intent: AddressChange
+  - action: utter_AddressChange
+
+- story: officelocations
+  steps:
+  - intent: OfficeAdress
+  - action: utter_OfficeAdress
+
+- story: combineaccountss
+  steps:
+  - intent: CombineAccount
+  - action: utter_CombineAccount
+
+- story: thanksgiving
+  steps:
+  - intent: thankss
+  - action: utter_thankss
+
+- story: JobChanged
+  steps:
+  - intent: JobChange
+  - action: utter_JobChange
+
+- story: InsuranceCovered
+  steps:
+  - intent: InsuranceCover
+  - action: utter_InsuranceCover
+
+- story: customAction1
+  steps:
+  - intent: ActionChecker
+  - action: 
+  
+- story: RetiredSoon01
+  steps:
+  - intent: RetireSoon2
+  - action: utter_RetireSoon2
+  - intent: affirm
+  - action: utter_RetireSoon
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: RetiredSoon02
+  steps:
+  - intent: RetireSoon2
+  - action: utter_RetireSoon2
+  - intent: deny
+  - action: utter_goodbye
+
+- story: InsuranceCoveredd01
+  steps:
+  - intent: InsuranceCover2
+  - action: utter_InsuranceCover2
+  - intent: affirm
+  - action: utter_InsuranceCover
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: InsuranceCoveredd02
+  steps:
+  - intent: InsuranceCover2
+  - action: utter_InsuranceCover2
+  - intent: deny
+  - action: utter_goodbye
+
+- story: applyAward2023
+  steps:
+  - intent: applyAward
+  - action: utter_applyAward
+
+- story: deadlineAPAC2023
+  steps:
+  - intent: deadlineAPAC
+  - action: utter_deadlineAPAC
+
+- story: reapplyAPAC2023
+  steps:
+  - intent: reapplyAPAC
+  - action: utter_reapplyAPAC
+  - intent: application_fee
+  - action: utter_application_fee
+  - intent: nominate
+  - action: utter_nominate
+  - intent: includes
+  - action: utter_includes
+  - intent: user_location
+  - action: utter_user_location 
+  - intent: multipleApply
+  - action: utter_multipleApply
