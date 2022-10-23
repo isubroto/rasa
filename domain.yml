@@ -8,24 +8,16 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
-  - queries
-  - AddressChange
-  - OfficeAdress
   - CombineAccount
   - thankss
-  - RetireSoon
-  - JobChange
-  - InsuranceCover
   - ActionChecker
-  - RetireSoon2
-  - InsuranceCover2
   - applyAward
   - deadlineAPAC
   - reapplyAPAC
   - application_fee
   - nominate
   - includes
-  - user_location
+ # - user_location
   - confidentiality
   - multipleApply
   - judging
@@ -36,10 +28,6 @@ actions:
 responses:
   utter_greet:
   - text: "Hey! How are you?"
-
-  utter_queries:
-  - text: "Locked Bag 5136, Parramatta NSW 2124. Or you can email us at hesta@hesta.com.au."
-  - text: "Okay, here is our address: Locked Bag 5136, Parramatta NSW 2124. Or you can email us at hesta@hesta.com.au."          
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -58,62 +46,30 @@ responses:
   - text: "C U bye"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Hesta. We are the fund for people like you. People who provide the best health and community services in the world."
+  - text: "I am a bot, powered by Women in AI. You can ask me any question regarding the WAI APAC Award 2023"
   
-  utter_AddressChange:
-  - text: "Oh yes, you wanna change your address. You'll need to complete a Change of member details form and a Certifying your ID form. You’ll need to provide certified documents to support your change of name (for example, a marriage certificate or divorce papers) or date of birth. Send the completed form to us.
-    Url: https://www.hesta.com.au/content/dam/hesta/Documents/Change-of-member-details-form.pdf"
-  
-  utter_OfficeAdress:
-  - text: "Locked Bag 5136, Parramatta NSW 2124. 8am - 8pm AET Monday to Friday. Or you can email us at hesta@hesta.com.au."
-  - text: "Okay, here is our address. Locked Bag 5136, Parramatta NSW 2124. 8am - 8pm AET Monday to Friday. Or you can email us at hesta@hesta.com.au."
 
-  utter_CombineAccount:
-  - text: "It's easy to bring your other super accounts into HESTA via your online account.
-    urL: http://hesta.com.au/findmysuper
-    Or you can fill out the paper form if you prefer - https://www.hesta.com.au/rollover"
-  
   utter_thankss:
   - text: "You are most welcome"
   - text: "Welcome"
 
-  utter_RetireSoon2:
-  - text: "Yes sure, do you need details information on our retirement policy ?"
-  - text: "Yes sure, do you want our retirement policy details ?"
-
-  utter_InsuranceCover2:
-  - text: "Yes sure, do you need details information on our insurance policy ?"
-  - text: "Yes sure, do you want our insurance policy details ?"
-
-  utter_RetireSoon:
-  - text: "The first step is to call our advice team on 1300 734 479. They can guide you through your options. Your super (less any taxes or other costs that may apply) can be paid as a lump sum or an income stream depending on your age and situation. income stream: https://www.hesta.com.au/members/retirement/income-stream Please note the government has introduced a limit of $1.6m on the amount that can be converted into a retirement phase income stream. Find out more about accessing your super when you retire - https://www.hesta.com.au/members/retirement/income-stream"
-  - text: "Whether you're two or twenty years away from retiring, we're here to help you understand your options and how to transition into this new phase of life. The first step is to contact our support team at 1300 734 479. They can help you sort through your alternatives. Depending on your age and position, your super (minus any taxes or other expenses that may apply) can be paid as a lump payment or as an income stream. https://www.hesta.com.au/members/retirement/income-stream/ Please keep in mind that the government has imposed a $1.6 million cap on the amount that can be converted into a retirement phase income stream. More information about accessing your super after you retire may be found at https://www.hesta.com.au/members/retirement/income-stream."
-
-  utter_JobChange:
-  - text: "Congrats on your new job! Whether your new employer is registered with HESTA or not, all you have to do is give them a completed Choice of super fund request form (pdf) (which includes the letter of compliance) when you start your new job. Fund Request Form - https://www.hesta.com.au/content/dam/hesta/Documents/Why-HESTA.pdf"
-  - text: "Whether your new employer is registered with HESTA or not, all you have to do is give them a completed Choice of super fund request form (pdf) (which includes the letter of compliance) when you start your new job. Fund Request Form - https://www.hesta.com.au/content/dam/hesta/Documents/Why-HESTA.pdf"
-
-  utter_InsuranceCover:
-  - text: "You can check your cover right now in your online account - https://my.hesta.com.au/login .
-If you need any help or have more questions, call us on 1800 813 327. Depending on your age and balance you may not have received automatic cover yet. Read more about when cover starts (and stops) in Insurance options (pdf) - https://www.hesta.com.au/content/dam/hesta/Documents/Insurance-options.pdf."
-  
   utter_applyAward:
   - text: "Applications close midnight GMT (+5:30) Sunday 19 March 2023. Please provide information  using this form https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform to complete registration. Please visite to the WAI Awards 2023 APAC website for any further information: 
-https://www.womeninai.co/waiawards2023apac or contact to the email waiawards_apac@womeninai.co."
+     https://www.womeninai.co/waiawards2023apac or contact to the email waiawards_apac@womeninai.co."
   - text: "On Sunday, March 19, 2023, at midnight GMT (+5:30), applications must be submitted. To finish registration, please fill out the form at https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform. For further information, please visit the WAI Awards 2023 APAC website at https://www.womeninai.co/waiawards2023apac or send an email to waiawards_apac@womeninai.co."
   
 
   utter_deadlineAPAC:
   - text: "According to the application form the last date of submissino is midnight GMT (+5:30) Sunday 19 March 2023 Or visit this page to know the updated date of submission deadline. 
-URL: https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform"
+     URL: https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform"
   - text: "The application form specifies that submissions must be received by midnight GMT (+5:30). a Sunday, March 19, 2023 Or visit this page to know the updated date of submission deadline. 
-URL: https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform"
+     URL: https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform"
   - text: "The application form lists midnight GMT (+5:30) as the deadline for submission. March 19th, Sunday, 2023 Or visit this page to know the updated date of submission deadline. 
-URL: https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform"
+     URL: https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform"
   - text: "The application form states that the deadline for submission is midnight GMT (+5:30). Sunday, March 19, 2023 Or visit this page to know the updated date of submission deadline. 
-URL: https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform"
+     URL: https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform"
   - text: "According to the application form, the deadline for submission is midnight GMT (+5:30). March 19, 2023 Or visit this page to know the updated date of submission deadline. 
-URL: https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform"
+     URL: https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform"
   
 
   utter_reapplyAPAC:
@@ -126,50 +82,44 @@ URL: https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM
 
   utter_application_fee:
   - text: "Yes or No"
+  
   utter_nominate:
   - text: "according to the website there are not such thing says to apply."
   - text: "The website claims that there are no such requirements."
   - text: "The website claims that there are no such requirements."
   - text: "According to the website, such a thing does not apply."
   - text: ""
+
   utter_includes:
   - text: "Needed file information not mentions"
-  utter_user_location:
-  - text: "yes, for example, if you are form north america then you have a option for Apply to WAI Awards North America"
-  - text: "Yes, for example, if you are from the North American region, you can apply to the WAI Awards North America."
-  - text: "Yes, for example, if you are from North America, you can apply to the WAI Awards North America."
-  - text: "Yes, for instance, you can apply to the WAI Awards North America if you are from North America."
-  utter_confidentiality:
-  - text: "Yes, we believe it must be kept private."
-  - text: "Yes, we believe it should be kept private."
-  - text: "Yes, we believe it should be kept confidential."
-  - text: "Yes, we believe it ought to be kept private."
-  - text: "In our opinion, it must be kept private."
-  - text: "We believe it needs to be kept private, therefore absolutely."
-  utter_multipleApply:
-  - text: "If you can you are welcome"
-  - text: "You are welcome if you can."
-  - text: "You are welcome to come if you are able."
-  - text: "If possible, please do."
-  - text: "If you can, please do."
-  - text: "If you can, please try."
-  utter_judging:
-  - text: "The curated panel of judges is comprised of totally independent subject matter experts who will ensure an accurate, fair, and transparent judgment procedure.
-The initial round of the judging process reviews all applicants and selects three finalists from each category.
 
-The second round of the judging process determines the winner of each category from the three chosen category finalists, as well as the overall winner of the Grand Award - 'APAC WAI Innovator of the Year,' who is followed by the two runners-up."
-  - text: "The curated panel of judges consists of totally independent subject matter experts who will ensure an accurate, fair, and transparent judgment procedure.
-The first step of the judging process involves evaluating all applicants and selecting three finalists from each category.
+  # utter_user_location:
+  # - text: "yes, for example, if you are form north america then you have a option for Apply to WAI Awards North America"
+  # - text: "Yes, for example, if you are from the North American region, you can apply to the WAI Awards North America."
+  # - text: "Yes, for example, if you are from North America, you can apply to the WAI Awards North America."
+  # - text: "Yes, for instance, you can apply to the WAI Awards North America if you are from North America."
 
-The second round of the judging process determines the winner of each category from the three selected category finalists, as well as the overall winner of the Grand Award - 'APAC WAI Innovator of the Year,' followed by the two runners-up."
-  - text: "A precise, fair, and transparent judging process will be ensured by the panel of carefully selected judges, all of whom are completely independent subject matter experts.
-Three finalists are chosen for each category after the first round of judging examines all applicants.
+  # utter_confidentiality:
+  # - text: "Yes, we believe it must be kept private."
+  # - text: "Yes, we believe it should be kept private."
+  # - text: "Yes, we believe it should be kept confidential."
+  # - text: "Yes, we believe it ought to be kept private."
+  # - text: "In our opinion, it must be kept private."
+  # - text: "We believe it needs to be kept private, therefore absolutely."
 
-The APAC WAI Innovator of the Year, who is followed by the two runners-up, is named the overall winner of the Grand Award during the second phase of judging, which also determines the winners of each of the three finalist categories."
-  - text: "A precise, fair, and transparent judging procedure will be ensured by the panel of carefully selected judges, all of whom are completely independent subject matter experts.
-Three finalists are chosen for each category after the first round of judging examines all applicants.
+  # utter_multipleApply:
+  # - text: "If you can you are welcome"
+  # - text: "You are welcome if you can."
+  # - text: "You are welcome to come if you are able."
+  # - text: "If possible, please do."
+  # - text: "If you can, please do."
+  # - text: "If you can, please try."
 
-The APAC WAI Innovator of the Year, who is followed by the two runners-up, is named the overall winner of the Grand Award during the second round of judging, which also determines the winners of each of the three finalist categories."
+  # utter_judging:
+  # - text: "The curated panel of judges is comprised of totally independent subject matter experts who will ensure an accurate, fair, and transparent judgment procedure. The initial round of the judging process reviews all applicants and selects three finalists from each category. The second round of the judging process determines the winner of each category from the three chosen category finalists, as well as the overall winner of the Grand Award - 'APAC WAI Innovator of the Year,' who is followed by the two runners-up."
+  # - text: "The curated panel of judges consists of totally independent subject matter experts who will ensure an accurate, fair, and transparent judgment procedure. The first step of the judging process involves evaluating all applicants and selecting three finalists from each category. The second round of the judging process determines the winner of each category from the three selected category finalists, as well as the overall winner of the Grand Award - 'APAC WAI Innovator of the Year,' followed by the two runners-up."
+  # - text: "A precise, fair, and transparent judging process will be ensured by the panel of carefully selected judges, all of whom are completely independent subject matter experts. Three finalists are chosen for each category after the first round of judging examines all applicants. The APAC WAI Innovator of the Year, who is followed by the two runners-up, is named the overall winner of the Grand Award during the second phase of judging, which also determines the winners of each of the three finalist categories."
+  # - text: "A precise, fair, and transparent judging procedure will be ensured by the panel of carefully selected judges, all of whom are completely independent subject matter experts. Three finalists are chosen for each category after the first round of judging examines all applicants. The APAC WAI Innovator of the Year, who is followed by the two runners-up, is named the overall winner of the Grand Award during the second round of judging, which also determines the winners of each of the three finalist categories."
 
 
 

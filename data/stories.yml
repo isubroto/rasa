@@ -29,79 +29,10 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
-- story: queriesz
-  steps:
-  - intent: queries
-  - action: utter_queries
-
-- story: adresschanges
-  steps:
-  - intent: AddressChange
-  - action: utter_AddressChange
-
-- story: officelocations
-  steps:
-  - intent: OfficeAdress
-  - action: utter_OfficeAdress
-
-- story: combineaccountss
-  steps:
-  - intent: CombineAccount
-  - action: utter_CombineAccount
-
 - story: thanksgiving
   steps:
   - intent: thankss
   - action: utter_thankss
-
-- story: JobChanged
-  steps:
-  - intent: JobChange
-  - action: utter_JobChange
-
-- story: InsuranceCovered
-  steps:
-  - intent: InsuranceCover
-  - action: utter_InsuranceCover
-
-- story: customAction1
-  steps:
-  - intent: ActionChecker
-  - action: 
-  
-- story: RetiredSoon01
-  steps:
-  - intent: RetireSoon2
-  - action: utter_RetireSoon2
-  - intent: affirm
-  - action: utter_RetireSoon
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
-
-- story: RetiredSoon02
-  steps:
-  - intent: RetireSoon2
-  - action: utter_RetireSoon2
-  - intent: deny
-  - action: utter_goodbye
-
-- story: InsuranceCoveredd01
-  steps:
-  - intent: InsuranceCover2
-  - action: utter_InsuranceCover2
-  - intent: affirm
-  - action: utter_InsuranceCover
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
-
-- story: InsuranceCoveredd02
-  steps:
-  - intent: InsuranceCover2
-  - action: utter_InsuranceCover2
-  - intent: deny
-  - action: utter_goodbye
 
 - story: applyAward2023
   steps:
@@ -117,13 +48,38 @@ stories:
   steps:
   - intent: reapplyAPAC
   - action: utter_reapplyAPAC
+
+- story: application_fee_info
+  steps:
   - intent: application_fee
   - action: utter_application_fee
+
+- story: nomination
+  steps:
   - intent: nominate
   - action: utter_nominate
+
+- story: files
+  steps:
   - intent: includes
   - action: utter_includes
-  - intent: user_location
-  - action: utter_user_location 
-  - intent: multipleApply
-  - action: utter_multipleApply
+
+# - story: location_apply
+#   steps:
+#   - intent: user_location
+#   - action: utter_user_location 
+
+# - story: multiple_apply
+#   steps:
+#   - intent: multipleApply
+#   - action: utter_multipleApply
+
+# - story: judging_process
+#   steps:
+#   - intent: judging
+#   - action: utter_judging
+
+# - story: confidentiality_info
+#   steps: 
+#   - intent: confidentiality
+#   - action: utter_confidentiality
