@@ -155,6 +155,9 @@ nlu:
     - Do I have the option to reapply if I was a finalist in 2021 or 2022?
     - Can I apply again if I made the finals in 2021 or 2022?
     - Can I reapply if I made the finals in 2021 or 2022?
+    - reapply
+    - reapply again
+    - apply again
 
 - intent: application_fee
   examples: |
@@ -167,6 +170,7 @@ nlu:
     - entry fee
     - fee
     - entry cost
+    - discount
 
 - intent: nominate
   examples: |
@@ -177,6 +181,8 @@ nlu:
     - Can I apply without being nominated?
     - To apply, do I need to be nominated?
     - Do I need to be nominated in order to apply?
+    - do I need to be nominated?
+    - nomination process
 
 - intent: includes
   examples: |

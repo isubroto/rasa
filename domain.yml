@@ -60,25 +60,26 @@ responses:
   
 
   utter_deadlineAPAC:
-  - text: "According to the application form the last date of submission is midnight GMT (+5:30) Sunday 19 March 2023 Or visit this page to know the updated date of the submission deadline.
+  - text: "The last date of submission is midnight GMT (+5:30) Sunday 19 March 2023 Or visit this page to know the updated date of the submission deadline.
      URL: https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform"
-  - text: "The application form specifies that submissions must be received by midnight GMT (+5:30). a Sunday, March 19, 2023, Or visit this page to know the updated date of the submission deadline.
+  - text: "The submissions must be received by midnight GMT (+5:30). a Sunday, March 19, 2023, Or visit this page to know the updated date of the submission deadline.
      URL: https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform"
-  - text: "The application form lists midnight GMT (+5:30) as the deadline for submission. March 19th, Sunday, 2023, Or visit this page to know the updated date of the submission deadline.
+  - text: "The midnight GMT (+5:30) as the deadline for submission. March 19th, Sunday, 2023, Or visit this page to know the updated date of the submission deadline.
      URL: https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform"
-  - text: "The application form states that the deadline for submission is midnight GMT (+5:30). Sunday, March 19, 2023, Or visit this page to know the updated date of the submission deadline.
+  - text: "The deadline for submission is midnight GMT (+5:30). Sunday, March 19, 2023, Or visit this page to know the updated date of the submission deadline.
      URL: https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform"
-  - text: "According to the application form, the deadline for submission is midnight GMT (+5:30). March 19, 2023, Or visit this page to know the updated date of the submission deadline.
+  - text: "The deadline for submission is midnight GMT (+5:30). March 19, 2023, Or visit this page to know the updated date of the submission deadline.
      URL: https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform"
   
 
   utter_reapplyAPAC:
-  - text: "there is no restriction says on the website. So it should be yes."
-  - text: "The website states that there are no restrictions. Therefore, the answer must be in the affirmative."
-  - text: "According to the website, there are no restrictions. Consequently, the answer must be in the affirmative."
-  - text: "It states on the website that there are no restrictions. So, the answer must be in the affirmative."
-  - text: "According to the website, there are no restrictions. So the answer should be yes."
-  - text: "The website states that there are no restrictions. As a result, the answer should be yes."
+  - text: "yes there is no restriction."
+  - text: "There are no restrictions. Therefore, the answer must be in the yes."
+  - text: "There are no restrictions. Consequently, the answer must be in the yes."
+  - text: "There are no restrictions. So, the answer must be in the yes."
+  - text: "There are no restrictions. So the answer should be yes."
+  - text: "yes you can."
+  - text: "yes"
 
   utter_application_fee:
   - text: "There is no cost involved to enter WAI APAC Awards 2023."
@@ -90,11 +91,11 @@ responses:
   - text: "No fee its free."
   
   utter_nominate:
-  - text: "according to the website there is no such thing that says to apply."
-  - text: "The website claims that there are no such requirements."
-  - text: "The website claims that there are no such requirements."
-  - text: "According to the website, such a thing does not apply."
-  - text: ""
+  - text: "There is no such thing that says to apply."
+  - text: "There are no such requirements."
+  - text: "There are no such requirements."
+  - text: "Such a thing does not apply."
+  - text: "No"
 
   utter_includes:
   - text: "Needed file information not mentioned"
