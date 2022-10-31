@@ -164,6 +164,9 @@ nlu:
     - Does entry have a fee?
     - Is there a fee to enter?
     - Is there an entry fee?
+    - entry fee
+    - fee
+    - entry cost
 
 - intent: nominate
   examples: |
@@ -184,44 +187,44 @@ nlu:
     - What should I include in my entry?
     - What should I post about in my entry?
 
-# - intent: user_location
-#   examples: |
-#     - Do I have to be Asia-Pacific based?
-#     - Do I have to be based in Asia-Pacific?
-#     - Is it necessary for me to be based in Asia-Pacific?
-#     - Do I have to be based in the Asia-Pacific region?
-#     - Do I have to be based in Asia-Pacific?
-#     - Is it necessary to be based in Asia-Pacific?
-#     - Must I be headquartered in the Asia-Pacific region?
+- intent: user_location
+  examples: |
+    - Do I have to be Asia-Pacific based?
+    - Do I have to be based in Asia-Pacific?
+    - Is it necessary for me to be based in Asia-Pacific?
+    - Do I have to be based in the Asia-Pacific region?
+    - Do I have to be based in Asia-Pacific?
+    - Is it necessary to be based in Asia-Pacific?
+    - Must I be headquartered in the Asia-Pacific region?
 
-# - intent: confidentiality
-#   examples: |
-#     - Is my submission confidential?
-#     - Is the information I submit private?
-#     - Is my submission private?
-#     - Is my submission private and secure?
-#     - Is the information I've provided private?
-#     - Is my submission secure?
-#     - Is my submission safe?
-# - intent: multipleApply
-#   examples: |
-#     - Can I enter more than one category?
-#     - Can I participate in multiple categories?
-#     - Can I participate in more than one category?
-#     - Can I compete in more than one category?
-#     - Can I participate in more than one category?
-#     - Can I enter multiple categories?
-# - intent: judging
-#   examples: |
-#     - What is the judging process?
-#     - What is the procedure for judging?
-#     - What happens during the judging?
-#     - How are decisions made?
-#     - What steps comprise the judgment procedure?
-#     - What exactly is the judgment procedure?
-#     - What is the judging procedure?
-#     - How does the judgment work?
-#     - What exactly is the judgment procedure?
-#     - judging process
+- intent: confidentiality
+  examples: |
+    - Is my submission confidential?
+    - Is the information I submit private?
+    - Is my submission private?
+    - Is my submission private and secure?
+    - Is the information I've provided private?
+    - Is my submission secure?
+    - Is my submission safe?
+- intent: multipleApply
+  examples: |
+    - Can I enter more than one category?
+    - Can I participate in multiple categories?
+    - Can I participate in more than one category?
+    - Can I compete in more than one category?
+    - Can I participate in more than one category?
+    - Can I enter multiple categories?
+- intent: judging
+  examples: |
+    - What is the judging process?
+    - What is the procedure for judging?
+    - What happens during the judging?
+    - How are decisions made?
+    - What steps comprise the judgment procedure?
+    - What exactly is the judgment procedure?
+    - What is the judging procedure?
+    - How does the judgment work?
+    - What exactly is the judgment procedure?
+    - judging process
 
   

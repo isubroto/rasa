@@ -64,22 +64,22 @@ stories:
   - intent: includes
   - action: utter_includes
 
-# - story: location_apply
-#   steps:
-#   - intent: user_location
-#   - action: utter_user_location 
+- story: location_apply
+  steps:
+  - intent: user_location
+  - action: utter_user_location 
 
-# - story: multiple_apply
-#   steps:
-#   - intent: multipleApply
-#   - action: utter_multipleApply
+- story: multiple_apply
+  steps:
+  - intent: multipleApply
+  - action: utter_multipleApply
 
-# - story: judging_process
-#   steps:
-#   - intent: judging
-#   - action: utter_judging
+- story: judging_process
+  steps:
+  - intent: judging
+  - action: utter_judging
 
-# - story: confidentiality_info
-#   steps: 
-#   - intent: confidentiality
-#   - action: utter_confidentiality
+- story: confidentiality_info
+  steps: 
+  - intent: confidentiality
+  - action: utter_confidentiality

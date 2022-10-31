@@ -17,7 +17,7 @@ intents:
   - application_fee
   - nominate
   - includes
- # - user_location
+  - user_location
   - confidentiality
   - multipleApply
   - judging
@@ -54,26 +54,26 @@ responses:
   - text: "Welcome"
 
   utter_applyAward:
-  - text: "Applications close midnight GMT (+5:30) Sunday 19 March 2023. Please provide information  using this form https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform to complete registration. Please visite to the WAI Awards 2023 APAC website for any further information: 
-     https://www.womeninai.co/waiawards2023apac or contact to the email waiawards_apac@womeninai.co."
+  - text: "Applications close midnight GMT (+5:30) Sunday 19 March 2023. Please provide information using this form https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform to complete registration. Please visit the WAI Awards 2023 APAC website for any further information: 
+     https://www.womeninai.co/waiawards2023apac or contact the email waiawards_apac@womeninai.co."
   - text: "On Sunday, March 19, 2023, at midnight GMT (+5:30), applications must be submitted. To finish registration, please fill out the form at https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform. For further information, please visit the WAI Awards 2023 APAC website at https://www.womeninai.co/waiawards2023apac or send an email to waiawards_apac@womeninai.co."
   
 
   utter_deadlineAPAC:
-  - text: "According to the application form the last date of submissino is midnight GMT (+5:30) Sunday 19 March 2023 Or visit this page to know the updated date of submission deadline. 
+  - text: "According to the application form the last date of submission is midnight GMT (+5:30) Sunday 19 March 2023 Or visit this page to know the updated date of the submission deadline.
      URL: https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform"
-  - text: "The application form specifies that submissions must be received by midnight GMT (+5:30). a Sunday, March 19, 2023 Or visit this page to know the updated date of submission deadline. 
+  - text: "The application form specifies that submissions must be received by midnight GMT (+5:30). a Sunday, March 19, 2023, Or visit this page to know the updated date of the submission deadline.
      URL: https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform"
-  - text: "The application form lists midnight GMT (+5:30) as the deadline for submission. March 19th, Sunday, 2023 Or visit this page to know the updated date of submission deadline. 
+  - text: "The application form lists midnight GMT (+5:30) as the deadline for submission. March 19th, Sunday, 2023, Or visit this page to know the updated date of the submission deadline.
      URL: https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform"
-  - text: "The application form states that the deadline for submission is midnight GMT (+5:30). Sunday, March 19, 2023 Or visit this page to know the updated date of submission deadline. 
+  - text: "The application form states that the deadline for submission is midnight GMT (+5:30). Sunday, March 19, 2023, Or visit this page to know the updated date of the submission deadline.
      URL: https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform"
-  - text: "According to the application form, the deadline for submission is midnight GMT (+5:30). March 19, 2023 Or visit this page to know the updated date of submission deadline. 
+  - text: "According to the application form, the deadline for submission is midnight GMT (+5:30). March 19, 2023, Or visit this page to know the updated date of the submission deadline.
      URL: https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform"
   
 
   utter_reapplyAPAC:
-  - text: "there are no restriction says in the website. So it should be yes."
+  - text: "there is no restriction says on the website. So it should be yes."
   - text: "The website states that there are no restrictions. Therefore, the answer must be in the affirmative."
   - text: "According to the website, there are no restrictions. Consequently, the answer must be in the affirmative."
   - text: "It states on the website that there are no restrictions. So, the answer must be in the affirmative."
@@ -81,48 +81,56 @@ responses:
   - text: "The website states that there are no restrictions. As a result, the answer should be yes."
 
   utter_application_fee:
-  - text: "Yes or No"
+  - text: "There is no cost involved to enter WAI APAC Awards 2023."
+  - text: "here is no entry fee for the 2023 WAI APAC Awards."
+  - text: "Entry into the WAI APAC Awards 2023 is free of charge."
+  - text: "To enter the WAI APAC Awards 2023, there is no entry fee."
+  - text: "There is no fee to enter the WAI APAC Awards 2023."
+  - text: "There is no cost to participate the WAI APAC Awards 2023."
+  - text: "No fee its free."
   
   utter_nominate:
-  - text: "according to the website there are not such thing says to apply."
+  - text: "according to the website there is no such thing that says to apply."
   - text: "The website claims that there are no such requirements."
   - text: "The website claims that there are no such requirements."
   - text: "According to the website, such a thing does not apply."
   - text: ""
 
   utter_includes:
-  - text: "Needed file information not mentions"
+  - text: "Needed file information not mentioned"
 
-  # utter_user_location:
-  # - text: "yes, for example, if you are form north america then you have a option for Apply to WAI Awards North America"
-  # - text: "Yes, for example, if you are from the North American region, you can apply to the WAI Awards North America."
-  # - text: "Yes, for example, if you are from North America, you can apply to the WAI Awards North America."
-  # - text: "Yes, for instance, you can apply to the WAI Awards North America if you are from North America."
+  utter_user_location:
+  - text: "yes, for example, if you are from north America then you have an option for Apply to WAI Awards North America"
+  - text: "Yes, for example, if you are from the North American region, you can apply to the WAI Awards North America."
+  - text: "Yes, for example, if you are from North America, you can apply to the WAI Awards North America."
+  - text: "Yes, for instance, you can apply to the WAI Awards North America if you are from North America."
 
-  # utter_confidentiality:
-  # - text: "Yes, we believe it must be kept private."
-  # - text: "Yes, we believe it should be kept private."
-  # - text: "Yes, we believe it should be kept confidential."
-  # - text: "Yes, we believe it ought to be kept private."
-  # - text: "In our opinion, it must be kept private."
-  # - text: "We believe it needs to be kept private, therefore absolutely."
+  utter_confidentiality:
+  - text: "Yes, we believe it must be kept private."
+  - text: "Yes, we believe it should be kept private."
+  - text: "Yes, we believe it should be kept confidential."
+  - text: "Yes, we believe it ought to be kept private."
+  - text: "In our opinion, it must be kept private."
+  - text: "We believe it needs to be kept private, therefore absolutely."
 
-  # utter_multipleApply:
-  # - text: "If you can you are welcome"
-  # - text: "You are welcome if you can."
-  # - text: "You are welcome to come if you are able."
-  # - text: "If possible, please do."
-  # - text: "If you can, please do."
-  # - text: "If you can, please try."
+  utter_multipleApply:
+  - text: "If you can you are welcome"
+  - text: "You are welcome if you can."
+  - text: "You are welcome to come if possible."
+  - text: "If possible, please do."
+  - text: "If you can, please do."
+  - text: "If you can, please try."
 
-  # utter_judging:
-  # - text: "The curated panel of judges is comprised of totally independent subject matter experts who will ensure an accurate, fair, and transparent judgment procedure. The initial round of the judging process reviews all applicants and selects three finalists from each category. The second round of the judging process determines the winner of each category from the three chosen category finalists, as well as the overall winner of the Grand Award - 'APAC WAI Innovator of the Year,' who is followed by the two runners-up."
-  # - text: "The curated panel of judges consists of totally independent subject matter experts who will ensure an accurate, fair, and transparent judgment procedure. The first step of the judging process involves evaluating all applicants and selecting three finalists from each category. The second round of the judging process determines the winner of each category from the three selected category finalists, as well as the overall winner of the Grand Award - 'APAC WAI Innovator of the Year,' followed by the two runners-up."
-  # - text: "A precise, fair, and transparent judging process will be ensured by the panel of carefully selected judges, all of whom are completely independent subject matter experts. Three finalists are chosen for each category after the first round of judging examines all applicants. The APAC WAI Innovator of the Year, who is followed by the two runners-up, is named the overall winner of the Grand Award during the second phase of judging, which also determines the winners of each of the three finalist categories."
-  # - text: "A precise, fair, and transparent judging procedure will be ensured by the panel of carefully selected judges, all of whom are completely independent subject matter experts. Three finalists are chosen for each category after the first round of judging examines all applicants. The APAC WAI Innovator of the Year, who is followed by the two runners-up, is named the overall winner of the Grand Award during the second round of judging, which also determines the winners of each of the three finalist categories."
+  utter_judging:
+  - text: "The curated panel of judges is comprised of totally independent subject matter experts who will ensure an accurate, fair, and transparent judgment procedure. The initial round of the judging process reviews all applicants and selects three finalists from each category. The second round of the judging process determines the winner of each category from the three chosen category finalists, as well as the overall winner of the Grand Award - 'APAC WAI Innovator of the Year,' who is followed by the two runners-up."
+  - text: "The curated panel of judges consists of independent subject matter experts who will ensure an accurate, fair, and transparent judgment procedure. The first step of the judging process involves evaluating all applicants and selecting three finalists from each category. The second round of the judging process determines the winner of each category from the three selected category finalists, as well as the overall winner of the Grand Award - 'APAC WAI Innovator of the Year,' followed by the two runners-up."
+  - text: "A precise, fair, and transparent judging process will be ensured by the panel of carefully selected judges, all of whom are completely independent subject matter experts. After the first round of judging examines all applicants, three finalists are chosen for each category. The APAC WAI Innovator of the Year, who is followed by the two runners-up, is named the overall winner of the Grand Award during the second phase of judging, which also determines the winners of each of the three finalist categories."
+  - text: "A precise, fair, and transparent judging procedure will be ensured by the panel of carefully selected judges, all of whom are completely independent subject matter experts. After the first round of judging examines all applicants, three finalists are chosen for each category. The APAC WAI Innovator of the Year, who is followed by the two runners-up, is named the overall winner of the Grand Award during the second round of judging, which also determines the winners of each of the three finalist categories."
 
 
 
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+
+
