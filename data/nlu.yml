@@ -132,6 +132,7 @@ nlu:
     - How I apply to APAC?
     - Want to apply
     - wanna join
+    - apply
 
 - intent: deadlineAPAC
   examples: |

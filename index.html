@@ -7,14 +7,18 @@
         color: white;  
       }
       .rw-launcher {background-color: #152247;}
-      
+      .rw-response a{
+        color: #edbc11;
+        text-decoration: none;
+        font-weight: bolder;
+      }
       </style>
     
         <script>!(function () {
             let e = document.createElement("script"),
               t = document.head || document.getElementsByTagName("head")[0];
             (e.src =
-              "https://cdn.jsdelivr.net/npm/rasa-webchat@1.0.0/lib/index.js"),
+              "https://cdn.jsdelivr.net/npm/rasa-webchat@1.0.0/lib/index.min.js"),
               // Replace 1.x.x with the version that you want
               (e.async = !0),
               (e.onload = () => {
@@ -25,8 +29,8 @@
                     socketUrl: "http://localhost:5005/",
                     socketPath: "/socket.io/",
                     // add other props here
-                    title: 'Women In AI',
-                    subtitle: 'Got a question?'
+                    title: 'WAI APAC AWARD 2023',
+                    subtitle: 'Got any queries?'
                   },
                   null
                 );

@@ -21,6 +21,7 @@ intents:
   - confidentiality
   - multipleApply
   - judging
+  - apply_answer
 
 actions:
   - action_ActionChecker
@@ -54,8 +55,12 @@ responses:
   - text: "Welcome"
 
   utter_applyAward:
-  - text: "Applications close midnight GMT (+5:30) Sunday 19 March 2023. Please provide information using this [form] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform) to complete registration. Please visit the WAI Awards 2023 APAC website for any further information: go [here] (https://www.womeninai.co/waiawards2023apac) or contact the email waiawards_apac@womeninai.co."
-  - text: "On Sunday, March 19, 2023, at midnight GMT (+5:30), applications must be submitted. To finish registration, please fill out the [form] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform). For further information, please visit the WAI Awards 2023 APAC [website] (https://www.womeninai.co/waiawards2023apac) or send an email to waiawards_apac@womeninai.co."
+  - text: "Please choose your option"
+    buttons:
+    - title: "Did you apply before?"
+      payload: "/apply_answer"
+    - title: "Are you a ex champion?"
+      payload: "/apply_answer"
   
 
   utter_deadlineAPAC:
@@ -87,12 +92,11 @@ responses:
 
   
   utter_nominate:
-  - text: "There is no such thing that says to apply.To finish registration, please fill out this [form] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform)."
-  - text: "There are no such requirements.To finish registration, please fill out this [form] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform)."
-  - text: "There are no such requirements.To finish registration, please fill out this [form] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform)."
-  - text: "Such a thing does not apply.To finish registration, please fill out this [form] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform)."
-  - text: "No To finish registration, please fill out this [form] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform)."
-
+  - text: "yes,there is a nomination process. this [link] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform) allows you to nominate a female talent."
+  - text: "You can nominate a female talent by clicking on this [link] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform)."
+  - text: "TYes, there is a nomination process. You can nominate a female talent using this [link] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform)."
+  - text: "Yes, a nomination process exists. You can nominate a female talent by using this [link] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform)."
+  
   utter_includes:
   - text: "Needed file information not mentioned"
 
@@ -124,7 +128,10 @@ responses:
   - text: "A precise, fair, and transparent judging process will be ensured by the panel of carefully selected judges, all of whom are completely independent subject matter experts. After the first round of judging examines all applicants, three finalists are chosen for each category. The APAC WAI Innovator of the Year, who is followed by the two runners-up, is named the overall winner of the Grand Award during the second phase of judging, which also determines the winners of each of the three finalist categories."
   - text: "A precise, fair, and transparent judging procedure will be ensured by the panel of carefully selected judges, all of whom are completely independent subject matter experts. After the first round of judging examines all applicants, three finalists are chosen for each category. The APAC WAI Innovator of the Year, who is followed by the two runners-up, is named the overall winner of the Grand Award during the second round of judging, which also determines the winners of each of the three finalist categories."
 
-
+  utter_apply_answer:
+  - text: "Applications close midnight GMT (+5:30) Sunday 19 March 2023. Please provide information using this [form] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform) to complete registration. Please visit the WAI Awards 2023 APAC website for any further information: go [here] (https://www.womeninai.co/waiawards2023apac) or contact the email waiawards_apac@womeninai.co."
+  - text: "On Sunday, March 19, 2023, at midnight GMT (+5:30), applications must be submitted. To finish registration, please fill out the [form] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform). For further information, please visit the WAI Awards 2023 APAC [website] (https://www.womeninai.co/waiawards2023apac) or send an email to waiawards_apac@womeninai.co."
+  
 
 session_config:
   session_expiration_time: 60

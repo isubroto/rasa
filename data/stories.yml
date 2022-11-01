@@ -83,3 +83,8 @@ stories:
   steps: 
   - intent: confidentiality
   - action: utter_confidentiality
+
+- story: apply_answer_btn
+  steps:
+  - intent: apply_answer
+  - action: utter_apply_answer
