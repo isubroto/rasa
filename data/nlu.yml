@@ -130,6 +130,8 @@ nlu:
     - How do I apply for the WAI Awards APAC 2023?
     - How to apply in APAC?
     - How I apply to APAC?
+    - Want to apply
+    - wanna join
 
 - intent: deadlineAPAC
   examples: |
@@ -145,6 +147,8 @@ nlu:
     - submission last date
     - submission end
     - submission date
+    - Expire Date
+    - Expire Day
 
 - intent: reapplyAPAC
   examples: |
