@@ -54,50 +54,44 @@ responses:
   - text: "Welcome"
 
   utter_applyAward:
-  - text: "Applications close midnight GMT (+5:30) Sunday 19 March 2023. Please provide information using this form https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform to complete registration. Please visit the WAI Awards 2023 APAC website for any further information: 
-     https://www.womeninai.co/waiawards2023apac or contact the email waiawards_apac@womeninai.co."
-  - text: "On Sunday, March 19, 2023, at midnight GMT (+5:30), applications must be submitted. To finish registration, please fill out the form at https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform. For further information, please visit the WAI Awards 2023 APAC website at https://www.womeninai.co/waiawards2023apac or send an email to waiawards_apac@womeninai.co."
+  - text: "Applications close midnight GMT (+5:30) Sunday 19 March 2023. Please provide information using this [form] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform) to complete registration. Please visit the WAI Awards 2023 APAC website for any further information: go [here] (https://www.womeninai.co/waiawards2023apac) or contact the email waiawards_apac@womeninai.co."
+  - text: "On Sunday, March 19, 2023, at midnight GMT (+5:30), applications must be submitted. To finish registration, please fill out the [form] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform). For further information, please visit the WAI Awards 2023 APAC [website] (https://www.womeninai.co/waiawards2023apac) or send an email to waiawards_apac@womeninai.co."
   
 
   utter_deadlineAPAC:
-  - text: "The last date of submission is midnight GMT (+5:30) Sunday 19 March 2023 Or visit this page to know the updated date of the submission deadline.
-     URL: https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform"
-  - text: "The submissions must be received by midnight GMT (+5:30). a Sunday, March 19, 2023, Or visit this page to know the updated date of the submission deadline.
-     URL: https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform"
-  - text: "The midnight GMT (+5:30) as the deadline for submission. March 19th, Sunday, 2023, Or visit this page to know the updated date of the submission deadline.
-     URL: https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform"
-  - text: "The deadline for submission is midnight GMT (+5:30). Sunday, March 19, 2023, Or visit this page to know the updated date of the submission deadline.
-     URL: https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform"
-  - text: "The deadline for submission is midnight GMT (+5:30). March 19, 2023, Or visit this page to know the updated date of the submission deadline.
-     URL: https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform"
+  - text: "The last date of submission is midnight GMT (+5:30) Sunday 19 March 2023 Or visit this [page] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform) to know the updated date of the submission deadline." 
+  - text: "The submissions must be received by midnight GMT (+5:30). a Sunday, March 19, 2023, Or visit this [page] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform) to know the updated date of the submission deadline."
+  - text: "The midnight GMT (+5:30) as the deadline for submission. March 19th, Sunday, 2023, Or visit this [page] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform) to know the updated date of the submission deadline."
+  - text: "The deadline for submission is midnight GMT (+5:30). Sunday, March 19, 2023, Or visit this [page] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform) to know the updated date of the submission deadline."
+  - text: "The deadline for submission is midnight GMT (+5:30). March 19, 2023, Or visit this [page] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform) to know the updated date of the submission deadline."
   
 
   utter_reapplyAPAC:
-  - text: "yes there is no restriction."
-  - text: "There are no restrictions. Therefore, the answer must be yes."
-  - text: "There are no restrictions. Consequently, the answer must be yes."
-  - text: "There are no restrictions. So, the answer must be yes."
-  - text: "There are no restrictions. So the answer should be yes."
-  - text: "yes you can."
-  - text: "yes"
+  - text: "yes there is no restriction. Please provide information using this [form] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform) to complete registration."
+  - text: "There are no restrictions. Therefore, the answer must be yes.Please provide information using this [form] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform) to complete registration."
+  - text: "There are no restrictions. Consequently, the answer must be yes.Please provide information using this [form] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform) to complete registration."
+  - text: "There are no restrictions. So, the answer must be yes.Please provide information using this [form] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform) to complete registration."
+  - text: "There are no restrictions. So the answer should be yes.Please provide information using this [form] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform) to complete registration."
+  - text: "yes you can. Please provide information using this [form] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform) to complete registration."
+  - text: "yes, Please provide information using this [form] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform) to complete registration."
 
 
   utter_application_fee:
-  - text: "There is no cost to enter WAI APAC Awards 2023."
-  - text: "here is no entry fee for the 2023 WAI APAC Awards."
-  - text: "Entry into the WAI APAC Awards 2023 is free of charge."
-  - text: "To enter the WAI APAC Awards 2023, there is no entry fee."
-  - text: "There is no fee to enter the WAI APAC Awards 2023."
-  - text: "There is no cost to participate the WAI APAC Awards 2023."
-  - text: "No fee it's free."
+  - text: "There is no cost to enter WAI APAC Awards 2023.To finish registration, please fill out this [form] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform)."
+  - text: "here is no entry fee for the 2023 WAI APAC Awards.To finish registration, please fill out this [form] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform)."
+  - text: "Entry into the WAI APAC Awards 2023 is free of charge.To finish registration, please fill out this [form] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform)."
+  - text: "To enter the WAI APAC Awards 2023, there is no entry fee.To finish registration, please fill out this [form] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform)."
+  - text: "There is no fee to enter the WAI APAC Awards 2023.To finish registration, please fill out this [form] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform)."
+  - text: "There is no cost to participate the WAI APAC Awards 2023.To finish registration, please fill out this [form] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform)."
+  - text: "No fee it's free.To finish registration, please fill out this [form] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform)."
 
   
   utter_nominate:
-  - text: "There is no such thing that says to apply."
-  - text: "There are no such requirements."
-  - text: "There are no such requirements."
-  - text: "Such a thing does not apply."
-  - text: "No"
+  - text: "There is no such thing that says to apply.To finish registration, please fill out this [form] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform)."
+  - text: "There are no such requirements.To finish registration, please fill out this [form] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform)."
+  - text: "There are no such requirements.To finish registration, please fill out this [form] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform)."
+  - text: "Such a thing does not apply.To finish registration, please fill out this [form] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform)."
+  - text: "No To finish registration, please fill out this [form] (https://docs.google.com/forms/d/e/1FAIpQLSfu7pesYbIDHJy5kowoiTxcb7S_z1lfQcM957KxpIfkNbhV3w/viewform)."
 
   utter_includes:
   - text: "Needed file information not mentioned"
