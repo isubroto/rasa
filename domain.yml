@@ -74,21 +74,23 @@ responses:
 
   utter_reapplyAPAC:
   - text: "yes there is no restriction."
-  - text: "There are no restrictions. Therefore, the answer must be in the yes."
-  - text: "There are no restrictions. Consequently, the answer must be in the yes."
-  - text: "There are no restrictions. So, the answer must be in the yes."
+  - text: "There are no restrictions. Therefore, the answer must be yes."
+  - text: "There are no restrictions. Consequently, the answer must be yes."
+  - text: "There are no restrictions. So, the answer must be yes."
   - text: "There are no restrictions. So the answer should be yes."
   - text: "yes you can."
   - text: "yes"
 
+
   utter_application_fee:
-  - text: "There is no cost involved to enter WAI APAC Awards 2023."
+  - text: "There is no cost to enter WAI APAC Awards 2023."
   - text: "here is no entry fee for the 2023 WAI APAC Awards."
   - text: "Entry into the WAI APAC Awards 2023 is free of charge."
   - text: "To enter the WAI APAC Awards 2023, there is no entry fee."
   - text: "There is no fee to enter the WAI APAC Awards 2023."
   - text: "There is no cost to participate the WAI APAC Awards 2023."
-  - text: "No fee its free."
+  - text: "No fee it's free."
+
   
   utter_nominate:
   - text: "There is no such thing that says to apply."
