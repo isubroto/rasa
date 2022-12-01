@@ -83,8 +83,24 @@ stories:
   steps: 
   - intent: confidentiality
   - action: utter_confidentiality
-
-- story: apply_answer_btn
+- story: eligible
   steps:
-  - intent: apply_answer
-  - action: utter_apply_answer
+  - intent: applycondition
+  - action: utter_applycondition
+
+- story: numbers_of_categories
+  steps:
+  - intent: number_of_categories
+  - action: utter_number_of_categories
+- story: list1
+  steps:
+  - intent: catagories_list
+  - action: utter_catagories_list
+- story: list2
+  steps:
+  - intent: listct
+  - action: utter_listct
+- story: award_date
+  steps:
+  - intent: awarddate
+  - action: utter_awarddate
