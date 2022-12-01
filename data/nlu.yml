@@ -17,13 +17,11 @@ nlu:
     - goodevening
     - good afternoon
     - hlw
-    - yo
     - whats up
     - how are you?
 
 - intent: goodbye
   examples: |
-    - cu
     - good by
     - cee you later
     - good night
@@ -33,7 +31,6 @@ nlu:
     - see you around
     - bye bye
     - see you later
-    - later
 
 - intent: affirm
   examples: |
@@ -68,7 +65,6 @@ nlu:
     - amazing
     - feeling like a king
     - wonderful
-    - I am feeling very good
     - I am great
     - I am amazing
     - I am going to save the world
@@ -114,13 +110,6 @@ nlu:
     - Thank you so much.
     - Thank for the help.
 
-- intent: ActionChecker
-  examples: |
-    - Tell me about your [Investment](services)
-    - Need some [advice](services)
-    - Tell me about [retirement](services)
-    - Tell me about [superannuation](services)
-
 - intent: applyAward
   examples: |
     - How do I apply for WAI Awards 2023 APAC?
@@ -133,6 +122,11 @@ nlu:
     - Want to apply
     - wanna join
     - apply
+    - hello, how do i apply
+    - How do I apply, please
+    - Hello, how do I submit
+    - Please tell me how to apply
+    - how do i apply
 
 - intent: deadlineAPAC
   examples: |
@@ -151,6 +145,7 @@ nlu:
     - Expire Date
     - Expire Day
 
+
 - intent: reapplyAPAC
   examples: |
     - If I was a finalist in 2021 or 2022, may I apply again?
@@ -160,9 +155,10 @@ nlu:
     - Do I have the option to reapply if I was a finalist in 2021 or 2022?
     - Can I apply again if I made the finals in 2021 or 2022?
     - Can I reapply if I made the finals in 2021 or 2022?
-    - reapply
+    - reapply Processes if I
     - reapply again
     - apply again
+    -  I made the finals before
 
 - intent: application_fee
   examples: |
@@ -176,12 +172,13 @@ nlu:
     - fee
     - entry cost
     - discount
+    - How much cost needed to apply
 
 - intent: nominate
   examples: |
     - Is it necessary for me to be nominated in order to apply?
     - Do I have to be nominated to apply?
-    - Is it necessary for me to be nominated to apply?
+    - Is it essential for me to be nominated to apply?
     - Is a nomination required in order to apply?
     - Can I apply without being nominated?
     - To apply, do I need to be nominated?
@@ -225,6 +222,20 @@ nlu:
     - Can I compete in more than one category?
     - Can I participate in more than one category?
     - Can I enter multiple categories?
+    - more than 2 categories
+    - multiple categories
+    - apply multiple categories
+    - multiple apply
+    - more than one category
+    - more than two categories
+    - category multiple apply
+    - i mean i can only apply one or i can tick more then 3 categories
+    - I mean, I can only apply one or I can check more than three categories.
+    - I mean, I can only apply one or more than three categories.
+    - I mean, I can apply to one or check off no more than three categorizations.
+    - I'm talking about choosing more than three categories, but only applying to one.
+    - I don't mean that I can apply for more than one category or that I can check more than three.
+    - I mean, I can apply for just one category or I can check off more than three.
 - intent: judging
   examples: |
     - What is the judging process?
@@ -237,5 +248,50 @@ nlu:
     - How does the judgment work?
     - What exactly is the judgment procedure?
     - judging process
+- intent: applycondition
+  examples: |
+    - Who can Apply?
+    - Can anyone apply?
+    - who may apply?
+    - apply condition
+    - Who is eligible to apply?
+    - eligible to apply
+    - apply eligibility
+    - condition for applying
+    - What are the eligibilities
+    - eligibilities
 
+- intent: number_of_categories
+  examples: |
+    - how many catagories may i apply
+    - what number of categories may I apply
+    - how many categories can I apply for
+    - How many categories am I allowed to apply for?
+    - What categories may I apply for?
+- intent: out_of_scope
+  examples: |
+    - I want to order food
+    - What is 2 + 2?
+    - Who's the US President?
+- intent: catagories_list
+  examples: |
+   - How many categories
+   - all categories
+   - category list
+   - category name
+   - category
+   - categories
+   - number of categories
+   - how numerous categories
+   - Which category should I apply to?
+   - Which category ought I to apply for?
+   - What category should I apply for?
+- intent: awarddate
+  examples: |
+   - when is the award
+   - When will it be given?
+   - When will award be given?
+   - When will prize be given?
+   - When will the prize be given?
+   - When will the award be given?
   
