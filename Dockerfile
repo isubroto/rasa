@@ -1,4 +1,4 @@
-FROM python:3.7
+FROM python:3.8.18
 
 RUN pip install --upgrade pip
 RUN python -m pip install "rasa==2.1.2"
